@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
             alignItems: "center",
             fontSize: "20px",
             gap: "10px",
-            flexDirection: "column"
+            flexDirection: "column",
           }}
         >
           <Link href="/"><button>Home</button></Link>
@@ -37,14 +37,11 @@ export default function RootLayout({ children }) {
           <Link href="/posts"><button>Posts</button></Link>
           <Link href="/posts/posts2"><button>posts2</button></Link>
           <Link href="/art/art2"><button>art2</button></Link>
-
           <Link href="/art/art2/mona-lisa"><button>mona-lisa</button></Link>
           <Link href="/art/art2/starry-galaxy"><button>starry-galaxy</button></Link>
           <Link href="/art/art2/sunset"><button>sunset</button></Link>
-          <Link href="/compns"><button>todo</button></Link>"
-
+          <Link href="/compns"><button>todo</button></Link>
         </nav>
-
 
         {children}
       </body>
