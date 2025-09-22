@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
           <Link href="/art/art2/mona-lisa"><button>mona-lisa</button></Link>
           <Link href="/art/art2/starry-galaxy"><button>starry-galaxy</button></Link>
           <Link href="/art/art2/sunset"><button>sunset</button></Link>
-          <Link href="/compns"><button>todo</button></Link>
+
         </nav>
 
         {children}
